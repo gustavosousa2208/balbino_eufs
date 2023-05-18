@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found eufs_msgs: 0.0.0 (/home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gusta/balbino_eufs/build/eufs_models
+[ 75%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/dynamic_bicycle.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/point_mass.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/vehicle_model.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libeufs_models.a[0m
+[100%] Built target eufs_models
+-- Install configuration: ""
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/environment/library_path.sh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/environment/library_path.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models/vehicle_model.hpp
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models/eufs_models.hpp
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models/dynamic_bicycle.hpp
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models/vehicle_input.hpp
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models/point_mass.hpp
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models/noise.hpp
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models/vehicle_param.hpp
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/include/eufs_models/vehicle_state.hpp
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/lib/libeufs_models.a
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/ament_index/resource_index/package_run_dependencies/eufs_models
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/ament_index/resource_index/parent_prefix_path/eufs_models
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/environment/ament_prefix_path.sh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/environment/ament_prefix_path.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/environment/path.sh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/environment/path.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/local_setup.bash
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/local_setup.sh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/local_setup.zsh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/local_setup.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/package.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/ament_index/resource_index/packages/eufs_models
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport-noconfig.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig-version.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/package.xml
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/models/models.txt
+-- Installing: /home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/config/noise.yaml

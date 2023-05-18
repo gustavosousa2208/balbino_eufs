@@ -1,0 +1,6 @@
+Invoking command in '/home/gusta/balbino_eufs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gusta/balbino_eufs/eufs_msgs -DCMAKE_INSTALL_PREFIX=/home/gusta/balbino_eufs/install/eufs_msgs
+Invoked command in '/home/gusta/balbino_eufs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gusta/balbino_eufs/eufs_msgs -DCMAKE_INSTALL_PREFIX=/home/gusta/balbino_eufs/install/eufs_msgs
+Invoking command in '/home/gusta/balbino_eufs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gusta/balbino_eufs/build/eufs_msgs -- -j4 -l4
+Invoked command in '/home/gusta/balbino_eufs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gusta/balbino_eufs/build/eufs_msgs -- -j4 -l4
+Invoking command in '/home/gusta/balbino_eufs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gusta/balbino_eufs/build/eufs_msgs
+Invoked command in '/home/gusta/balbino_eufs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gusta/balbino_eufs/build/eufs_msgs

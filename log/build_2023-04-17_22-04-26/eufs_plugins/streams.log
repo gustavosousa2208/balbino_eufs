@@ -1,0 +1,174 @@
+[0.318s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_plugins': AMENT_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gusta/balbino_eufs/install/eufs_models/lib:/home/gusta/balbino_eufs/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gusta/balbino_eufs/eufs_sim/eufs_plugins -DCMAKE_INSTALL_PREFIX=/home/gusta/balbino_eufs/install/eufs_plugins
+[0.579s] -- The C compiler identification is GNU 11.3.0
+[1.798s] -- The CXX compiler identification is GNU 11.3.0
+[2.738s] -- Detecting C compiler ABI info
+[2.995s] -- Detecting C compiler ABI info - done
+[3.002s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.002s] -- Detecting C compile features
+[3.002s] -- Detecting C compile features - done
+[3.006s] -- Detecting CXX compiler ABI info
+[3.318s] -- Detecting CXX compiler ABI info - done
+[3.326s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.326s] -- Detecting CXX compile features
+[3.326s] -- Detecting CXX compile features - done
+[3.328s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.499s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.617s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[3.640s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.644s] -- Checking for module 'bullet>=2.82'
+[3.663s] --   Found bullet, version 3.05
+[3.898s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.935s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.968s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.546s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.992s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.997s] -- Looking for ignition-math6 -- found version 6.12.0
+[6.010s] -- Searching for dependencies of ignition-math6
+[6.013s] -- Looking for OGRE...
+[6.013s] -- OGRE_PREFIX_WATCH changed.
+[6.017s] -- Checking for module 'OGRE'
+[6.029s] --   Found OGRE, version 1.9.0
+[6.053s] -- Found Ogre Ghadamon (1.9.0)
+[7.267s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[7.277s] -- Looking for OGRE_Paging...
+[8.345s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.345s] -- Looking for OGRE_Terrain...
+[9.381s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[9.381s] -- Looking for OGRE_Property...
+[10.440s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[10.441s] -- Looking for OGRE_RTShaderSystem...
+[11.436s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[11.436s] -- Looking for OGRE_Volume...
+[12.792s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[12.792s] -- Looking for OGRE_Overlay...
+[13.925s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[74.722s] -- Looking for ignition-math6 -- found version 6.12.0
+[74.726s] -- Looking for ignition-transport8 -- found version 8.2.1
+[74.726s] -- Searching for dependencies of ignition-transport8
+[79.137s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[85.716s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[85.721s] -- Checking for module 'libzmq >= 4'
+[85.739s] --   Found libzmq , version 4.3.4
+[85.774s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[85.947s] -- Checking for module 'uuid'
+[85.964s] --   Found uuid, version 2.37.2
+[86.008s] -- Found UUID: TRUE  
+[86.016s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[86.017s] -- Searching for dependencies of ignition-msgs5
+[91.483s] -- Looking for ignition-math6 -- found version 6.12.0
+[91.491s] -- Checking for module 'tinyxml2'
+[91.505s] --   Found tinyxml2, version 9.0.0
+[91.543s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[91.548s] -- Looking for ignition-common3 -- found version 3.14.0
+[91.549s] -- Searching for dependencies of ignition-common3
+[91.763s] -- Looking for dlfcn.h - found
+[91.921s] -- Looking for libdl - found
+[91.922s] -- Found DL: TRUE  
+[92.151s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[92.152s] -- Searching for <ignition-common3> component [graphics]
+[92.154s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[92.155s] -- Searching for dependencies of ignition-common3-graphics
+[92.155s] -- Looking for ignition-math6 -- found version 6.12.0
+[92.159s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[92.159s] -- Searching for dependencies of ignition-fuel_tools4
+[97.771s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[97.782s] -- Checking for module 'jsoncpp'
+[97.793s] --   Found jsoncpp, version 1.9.5
+[97.817s] -- Found JSONCPP: TRUE  
+[97.824s] -- Checking for module 'libzip'
+[97.836s] --   Found libzip, version 1.7.3
+[97.860s] -- Found ZIP: TRUE  
+[97.861s] -- Looking for ignition-common3 -- found version 3.14.0
+[97.861s] -- Looking for ignition-math6 -- found version 6.12.0
+[97.862s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[97.867s] -- Gazebo version: 11.10
+[97.868s] -- Checking for module 'tbb'
+[97.879s] --   Found tbb, version 2021.5.0
+[97.903s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[98.133s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[98.137s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[98.160s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[98.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[98.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[98.286s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[98.292s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[103.823s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[109.470s] -- Found FastRTPS: /opt/ros/humble/include  
+[120.330s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[120.342s] -- Found Threads: TRUE  
+[120.512s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[120.550s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[120.637s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[120.672s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[120.692s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[121.037s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[121.135s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[121.137s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[121.137s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[121.146s] -- Found eufs_msgs: 0.0.0 (/home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake)
+[121.366s] -- Found eufs_models: 2.0.0 (/home/gusta/balbino_eufs/install/eufs_models/share/eufs_models/cmake)
+[121.376s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[121.430s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[121.452s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[121.635s] -- Configuring done
+[121.707s] -- Generating done
+[121.710s] -- Build files have been written to: /home/gusta/balbino_eufs/build/eufs_plugins
+[121.734s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gusta/balbino_eufs/install/eufs_models/lib:/home/gusta/balbino_eufs/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gusta/balbino_eufs/eufs_sim/eufs_plugins -DCMAKE_INSTALL_PREFIX=/home/gusta/balbino_eufs/install/eufs_plugins
+[121.737s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_plugins': AMENT_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gusta/balbino_eufs/install/eufs_models/lib:/home/gusta/balbino_eufs/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gusta/balbino_eufs/build/eufs_plugins -- -j4 -l4
+[121.781s] [ 22%] [32mBuilding CXX object gazebo_cone_plugins/CMakeFiles/gazebo_ground_truth_cones.dir/src/gazebo_ground_truth_cones.cpp.o[0m
+[121.781s] [ 22%] [32mBuilding CXX object gazebo_simulate_bounding_boxes/CMakeFiles/gazebo_simulate_bounding_boxes.dir/src/gazebo_simulate_bounding_boxes.cpp.o[0m
+[121.781s] [ 44%] [32mBuilding CXX object gazebo_race_car_model/CMakeFiles/gazebo_race_car_model.dir/src/gazebo_ros_race_car_model.cpp.o[0m
+[121.781s] [ 44%] [32mBuilding CXX object gazebo_cone_plugins/CMakeFiles/gazebo_camera_cones.dir/src/gazebo_camera_cones.cpp.o[0m
+[154.041s] [ 55%] [32m[1mLinking CXX shared library libgazebo_camera_cones.so[0m
+[157.472s] [ 55%] Built target gazebo_camera_cones
+[157.482s] [ 66%] [32mBuilding CXX object gazebo_race_car_model/CMakeFiles/gazebo_race_car_model.dir/src/state_machine.cpp.o[0m
+[182.175s] [ 77%] [32m[1mLinking CXX shared library libgazebo_ground_truth_cones.so[0m
+[183.636s] [ 77%] Built target gazebo_ground_truth_cones
+[185.755s] [ 88%] [32m[1mLinking CXX shared library libgazebo_race_car_model.so[0m
+[188.814s] [ 88%] Built target gazebo_race_car_model
+[194.585s] [100%] [32m[1mLinking CXX shared library libgazebo_simulate_bounding_boxes.so[0m
+[196.128s] [100%] Built target gazebo_simulate_bounding_boxes
+[196.154s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gusta/balbino_eufs/install/eufs_models/lib:/home/gusta/balbino_eufs/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gusta/balbino_eufs/build/eufs_plugins -- -j4 -l4
+[196.182s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_plugins': AMENT_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gusta/balbino_eufs/install/eufs_models/lib:/home/gusta/balbino_eufs/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gusta/balbino_eufs/build/eufs_plugins
+[196.192s] -- Install configuration: ""
+[196.193s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/urdf
+[196.194s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/urdf/eufs_plugins.gazebo.xacro
+[196.197s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[196.198s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[196.200s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/ament_index/resource_index/package_run_dependencies/eufs_plugins
+[196.201s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/ament_index/resource_index/parent_prefix_path/eufs_plugins
+[196.203s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/ament_prefix_path.sh
+[196.203s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/ament_prefix_path.dsv
+[196.204s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/path.sh
+[196.204s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/path.dsv
+[196.205s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/local_setup.bash
+[196.206s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/local_setup.sh
+[196.206s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/local_setup.zsh
+[196.207s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/local_setup.dsv
+[196.207s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/package.dsv
+[196.207s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/ament_index/resource_index/packages/eufs_plugins
+[196.208s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[196.208s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[196.209s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[196.209s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/cmake/eufs_pluginsConfig.cmake
+[196.209s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/cmake/eufs_pluginsConfig-version.cmake
+[196.210s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/package.xml
+[196.212s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/config
+[196.213s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/config/cone_recolor.yaml
+[196.215s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[196.215s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[196.217s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/lib/libgazebo_ground_truth_cones.so
+[196.221s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_plugins/lib/libgazebo_ground_truth_cones.so" to ""
+[196.221s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/lib/libgazebo_camera_cones.so
+[196.224s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_plugins/lib/libgazebo_camera_cones.so" to ""
+[196.224s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[196.225s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[196.225s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/lib/libgazebo_race_car_model.so
+[196.238s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_plugins/lib/libgazebo_race_car_model.so" to ""
+[196.238s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[196.238s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[196.238s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/config
+[196.239s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/share/eufs_plugins/config/boundingBoxes.yaml
+[196.239s] -- Installing: /home/gusta/balbino_eufs/install/eufs_plugins/lib/libgazebo_simulate_bounding_boxes.so
+[196.247s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_plugins/lib/libgazebo_simulate_bounding_boxes.so" to ""
+[196.251s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gusta/balbino_eufs/install/eufs_models:/home/gusta/balbino_eufs/install/eufs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/gusta/balbino_eufs/install/eufs_models/lib:/home/gusta/balbino_eufs/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gusta/balbino_eufs/build/eufs_plugins

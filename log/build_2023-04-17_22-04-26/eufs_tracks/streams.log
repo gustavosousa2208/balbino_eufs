@@ -1,0 +1,190 @@
+[1.405s] Invoking command in '/home/gusta/balbino_eufs/eufs_sim/eufs_tracks': PYTHONPATH=/home/gusta/balbino_eufs/build/eufs_tracks/prefix_override:/home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_tracks build --build-base /home/gusta/balbino_eufs/build/eufs_tracks/build install --record /home/gusta/balbino_eufs/build/eufs_tracks/install.log --single-version-externally-managed
+[1.816s] running egg_info
+[1.817s] creating ../../build/eufs_tracks/eufs_tracks.egg-info
+[1.818s] writing ../../build/eufs_tracks/eufs_tracks.egg-info/PKG-INFO
+[1.818s] writing dependency_links to ../../build/eufs_tracks/eufs_tracks.egg-info/dependency_links.txt
+[1.818s] writing entry points to ../../build/eufs_tracks/eufs_tracks.egg-info/entry_points.txt
+[1.819s] writing requirements to ../../build/eufs_tracks/eufs_tracks.egg-info/requires.txt
+[1.819s] writing top-level names to ../../build/eufs_tracks/eufs_tracks.egg-info/top_level.txt
+[1.819s] writing manifest file '../../build/eufs_tracks/eufs_tracks.egg-info/SOURCES.txt'
+[1.824s] reading manifest file '../../build/eufs_tracks/eufs_tracks.egg-info/SOURCES.txt'
+[1.826s] writing manifest file '../../build/eufs_tracks/eufs_tracks.egg-info/SOURCES.txt'
+[1.827s] running build
+[1.827s] running build_py
+[1.827s] creating /home/gusta/balbino_eufs/build/eufs_tracks/build
+[1.827s] creating /home/gusta/balbino_eufs/build/eufs_tracks/build/lib
+[1.829s] creating /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks
+[1.831s] copying eufs_tracks/__init__.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks
+[1.832s] creating /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/track_generator
+[1.832s] copying eufs_tracks/track_generator/track_generator_gui.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/track_generator
+[1.833s] copying eufs_tracks/track_generator/track_generator.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/track_generator
+[1.833s] copying eufs_tracks/track_generator/__init__.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/track_generator
+[1.834s] creating /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli
+[1.834s] copying eufs_tracks/cli/convert.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli
+[1.835s] copying eufs_tracks/cli/__init__.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli
+[1.835s] copying eufs_tracks/cli/main.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli
+[1.835s] copying eufs_tracks/cli/create.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli
+[1.836s] creating /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/converter_tool
+[1.836s] copying eufs_tracks/converter_tool/converter.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/converter_tool
+[1.837s] copying eufs_tracks/converter_tool/converter_gui.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/converter_tool
+[1.837s] copying eufs_tracks/converter_tool/__init__.py -> /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/converter_tool
+[1.838s] running build_scripts
+[1.838s] creating /home/gusta/balbino_eufs/build/eufs_tracks/build/scripts-3.10
+[1.839s] copying and adjusting scripts/eufs_tracks_converter -> /home/gusta/balbino_eufs/build/eufs_tracks/build/scripts-3.10
+[1.840s] copying and adjusting scripts/eufs_tracks_generator -> /home/gusta/balbino_eufs/build/eufs_tracks/build/scripts-3.10
+[1.840s] changing mode of /home/gusta/balbino_eufs/build/eufs_tracks/build/scripts-3.10/eufs_tracks_converter from 644 to 755
+[1.840s] changing mode of /home/gusta/balbino_eufs/build/eufs_tracks/build/scripts-3.10/eufs_tracks_generator from 644 to 755
+[1.841s] running install
+[1.841s] running install_lib
+[1.842s] creating /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks
+[1.842s] creating /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/track_generator
+[1.843s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/track_generator/track_generator_gui.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/track_generator
+[1.844s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/track_generator/track_generator.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/track_generator
+[1.844s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/track_generator/__init__.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/track_generator
+[1.844s] creating /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli
+[1.844s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli/convert.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli
+[1.845s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli/__init__.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli
+[1.845s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli/main.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli
+[1.845s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/cli/create.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli
+[1.845s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/__init__.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks
+[1.846s] creating /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/converter_tool
+[1.847s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/converter_tool/converter.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/converter_tool
+[1.847s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/converter_tool/converter_gui.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/converter_tool
+[1.848s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/lib/eufs_tracks/converter_tool/__init__.py -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/converter_tool
+[1.848s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/track_generator/track_generator_gui.py to track_generator_gui.cpython-310.pyc
+[1.850s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/track_generator/track_generator.py to track_generator.cpython-310.pyc
+[1.854s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/track_generator/__init__.py to __init__.cpython-310.pyc
+[1.854s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli/convert.py to convert.cpython-310.pyc
+[1.855s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli/__init__.py to __init__.cpython-310.pyc
+[1.856s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli/main.py to main.cpython-310.pyc
+[1.856s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/cli/create.py to create.cpython-310.pyc
+[1.858s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/__init__.py to __init__.cpython-310.pyc
+[1.858s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/converter_tool/converter.py to converter.cpython-310.pyc
+[1.870s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/converter_tool/converter_gui.py to converter_gui.cpython-310.pyc
+[1.870s] byte-compiling /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks/converter_tool/__init__.py to __init__.cpython-310.pyc
+[1.873s] running install_data
+[1.873s] copying package.xml -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks
+[1.874s] copying plugin.xml -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks
+[1.874s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/ament_index
+[1.875s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/ament_index/resource_index
+[1.875s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/ament_index/resource_index/packages
+[1.876s] copying resource/eufs_tracks -> /home/gusta/balbino_eufs/install/eufs_tracks/share/ament_index/resource_index/packages
+[1.880s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.882s] copying csv/peanut.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.883s] copying csv/comp_2021.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.883s] copying csv/its_a_mess.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.884s] copying csv/hairpins_increasing_difficulty.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.888s] copying csv/rectangle.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.888s] copying csv/rand.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.889s] copying csv/acceleration.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.890s] copying csv/garden_light.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.890s] copying csv/skidpad.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.890s] copying csv/small_track.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.891s] copying csv/boa_constrictor.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.891s] copying csv/bone.csv -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/csv
+[1.892s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/image
+[1.892s] copying image/skidpad.png -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/image
+[1.892s] copying image/comp_2021.png -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/image
+[1.892s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.893s] copying launch/skidpad.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.893s] copying launch/eufs_track_generator.launch.py -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.893s] copying launch/peanut.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.894s] copying launch/garden_light.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.894s] copying launch/boa_constrictor.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.894s] copying launch/its_a_mess.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.895s] copying launch/rectangle.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.895s] copying launch/small_track.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.896s] copying launch/hairpins_increasing_difficulty.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.896s] copying launch/empty.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.898s] copying launch/acceleration.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.899s] copying launch/comp_2021.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.899s] copying launch/rand.launch -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.903s] copying launch/blacklist.txt -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/launch
+[1.904s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/materials
+[1.904s] copying materials/asphalt.jpg -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/materials
+[1.933s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/meshes
+[1.933s] copying meshes/cone.dae -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/meshes
+[1.934s] copying meshes/cone_yellow.dae -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/meshes
+[1.935s] copying meshes/cone_big.dae -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/meshes
+[1.936s] copying meshes/MonkeyNoise.dae -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/meshes
+[1.937s] copying meshes/NoiseCube.dae -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/meshes
+[1.938s] copying meshes/cone_blue.dae -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/meshes
+[1.938s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.939s] copying worlds/small_track.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.939s] copying worlds/rectangle.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.939s] copying worlds/hairpins_increasing_difficulty.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.940s] copying worlds/skidpad.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.940s] copying worlds/rand.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.941s] copying worlds/peanut.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.941s] copying worlds/boa_constrictor.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.942s] copying worlds/garden_light.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.942s] copying worlds/its_a_mess.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.942s] copying worlds/acceleration.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.943s] copying worlds/comp_2021.world -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/worlds
+[1.944s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/resource
+[1.944s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/resource/randgen_model_template
+[1.945s] copying resource/randgen_model_template/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/resource/randgen_model_template
+[1.945s] copying resource/randgen_model_template/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/resource/randgen_model_template
+[1.948s] copying resource/noiseFiles.txt -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/resource
+[1.949s] copying resource/randgen_launch_template -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/resource
+[1.950s] copying resource/randgen_world_template -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/resource
+[1.950s] copying resource/conversion_tool.ui -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/resource
+[1.951s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models
+[1.951s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/blue_cone
+[1.951s] copying models/blue_cone/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/blue_cone
+[1.952s] copying models/blue_cone/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/blue_cone
+[1.952s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/small_track
+[1.952s] copying models/small_track/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/small_track
+[1.953s] copying models/small_track/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/small_track
+[1.954s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/comp_2021
+[1.954s] copying models/comp_2021/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/comp_2021
+[1.954s] copying models/comp_2021/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/comp_2021
+[1.955s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/boa_constrictor
+[1.956s] copying models/boa_constrictor/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/boa_constrictor
+[1.956s] copying models/boa_constrictor/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/boa_constrictor
+[1.956s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/orange_cone
+[1.956s] copying models/orange_cone/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/orange_cone
+[1.957s] copying models/orange_cone/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/orange_cone
+[1.958s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/yellow_cone
+[1.958s] copying models/yellow_cone/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/yellow_cone
+[1.958s] copying models/yellow_cone/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/yellow_cone
+[1.959s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/its_a_mess
+[1.960s] copying models/its_a_mess/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/its_a_mess
+[1.962s] copying models/its_a_mess/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/its_a_mess
+[1.964s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/peanut
+[1.965s] copying models/peanut/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/peanut
+[1.965s] copying models/peanut/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/peanut
+[1.966s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/acceleration
+[1.966s] copying models/acceleration/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/acceleration
+[1.967s] copying models/acceleration/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/acceleration
+[1.968s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/rand
+[1.968s] copying models/rand/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/rand
+[1.969s] copying models/rand/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/rand
+[1.970s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/rectangle
+[1.970s] copying models/rectangle/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/rectangle
+[1.971s] copying models/rectangle/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/rectangle
+[1.972s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/garden_light
+[1.972s] copying models/garden_light/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/garden_light
+[1.972s] copying models/garden_light/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/garden_light
+[1.973s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/skidpad
+[1.973s] copying models/skidpad/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/skidpad
+[1.974s] copying models/skidpad/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/skidpad
+[1.974s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/big_cone
+[1.975s] copying models/big_cone/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/big_cone
+[1.975s] copying models/big_cone/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/big_cone
+[1.975s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/ground_plane
+[1.976s] copying models/ground_plane/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/ground_plane
+[1.976s] copying models/ground_plane/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/ground_plane
+[1.977s] creating /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/hairpins_increasing_difficulty
+[1.978s] copying models/hairpins_increasing_difficulty/model.config -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/hairpins_increasing_difficulty
+[1.979s] copying models/hairpins_increasing_difficulty/model.sdf -> /home/gusta/balbino_eufs/install/eufs_tracks/share/eufs_tracks/models/hairpins_increasing_difficulty
+[1.982s] running install_egg_info
+[1.984s] Copying ../../build/eufs_tracks/eufs_tracks.egg-info to /home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages/eufs_tracks-2.0.0-py3.10.egg-info
+[1.985s] running install_scripts
+[2.022s] creating /home/gusta/balbino_eufs/install/eufs_tracks/lib/eufs_tracks
+[2.023s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/scripts-3.10/eufs_tracks_generator -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/eufs_tracks
+[2.023s] copying /home/gusta/balbino_eufs/build/eufs_tracks/build/scripts-3.10/eufs_tracks_converter -> /home/gusta/balbino_eufs/install/eufs_tracks/lib/eufs_tracks
+[2.023s] changing mode of /home/gusta/balbino_eufs/install/eufs_tracks/lib/eufs_tracks/eufs_tracks_generator to 755
+[2.023s] changing mode of /home/gusta/balbino_eufs/install/eufs_tracks/lib/eufs_tracks/eufs_tracks_converter to 755
+[2.025s] writing list of installed files to '/home/gusta/balbino_eufs/build/eufs_tracks/install.log'
+[2.088s] Invoked command in '/home/gusta/balbino_eufs/eufs_sim/eufs_tracks' returned '0': PYTHONPATH=/home/gusta/balbino_eufs/build/eufs_tracks/prefix_override:/home/gusta/balbino_eufs/install/eufs_tracks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_tracks build --build-base /home/gusta/balbino_eufs/build/eufs_tracks/build install --record /home/gusta/balbino_eufs/build/eufs_tracks/install.log --single-version-externally-managed

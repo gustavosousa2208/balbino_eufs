@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gusta/balbino_eufs/build/eufs_sensors
+-- Install configuration: ""
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/antenna_3GO16.stl
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/zed.dae
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_scan.dae
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_base_1.dae
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/antenna_3GO16.dae
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_base_2.dae
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/gps.urdf.xacro
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/zed.urdf.xacro
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/imu.urdf.xacro
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/VLP-16R.urdf.xacro
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/all_sensors.urdf.xacro
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/magnetometer.urdf.xacro
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/ament_index/resource_index/package_run_dependencies/eufs_sensors
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/ament_index/resource_index/parent_prefix_path/eufs_sensors
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/environment/ament_prefix_path.sh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/environment/ament_prefix_path.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/environment/path.sh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/environment/path.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/local_setup.bash
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/local_setup.sh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/local_setup.zsh
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/local_setup.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/package.dsv
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/ament_index/resource_index/packages/eufs_sensors
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/cmake/eufs_sensorsConfig.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/cmake/eufs_sensorsConfig-version.cmake
+-- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/package.xml

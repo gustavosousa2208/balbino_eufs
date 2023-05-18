@@ -1,0 +1,58 @@
+[0.688s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gusta/balbino_eufs/eufs_sim/eufs_sensors -DCMAKE_INSTALL_PREFIX=/home/gusta/balbino_eufs/install/eufs_sensors
+[1.156s] -- The C compiler identification is GNU 11.3.0
+[2.593s] -- The CXX compiler identification is GNU 11.3.0
+[3.450s] -- Detecting C compiler ABI info
+[3.919s] -- Detecting C compiler ABI info - done
+[3.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.927s] -- Detecting C compile features
+[3.927s] -- Detecting C compile features - done
+[3.929s] -- Detecting CXX compiler ABI info
+[4.382s] -- Detecting CXX compiler ABI info - done
+[4.393s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.393s] -- Detecting CXX compile features
+[4.394s] -- Detecting CXX compile features - done
+[4.396s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.628s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.760s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.862s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.866s] -- Added test 'lint_cmake' to check CMake code style
+[4.868s] -- Added test 'xmllint' to check XML markup files
+[4.872s] -- Configuring done
+[4.877s] -- Generating done
+[4.878s] -- Build files have been written to: /home/gusta/balbino_eufs/build/eufs_sensors
+[4.884s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gusta/balbino_eufs/eufs_sim/eufs_sensors -DCMAKE_INSTALL_PREFIX=/home/gusta/balbino_eufs/install/eufs_sensors
+[4.886s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gusta/balbino_eufs/build/eufs_sensors -- -j4 -l4
+[4.918s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gusta/balbino_eufs/build/eufs_sensors -- -j4 -l4
+[4.943s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gusta/balbino_eufs/build/eufs_sensors
+[4.949s] -- Install configuration: ""
+[4.949s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes
+[4.949s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/antenna_3GO16.stl
+[4.951s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/zed.dae
+[4.953s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_scan.dae
+[4.953s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_base_1.dae
+[4.954s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/antenna_3GO16.dae
+[4.956s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_base_2.dae
+[4.959s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf
+[4.959s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/gps.urdf.xacro
+[4.959s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/zed.urdf.xacro
+[4.960s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/imu.urdf.xacro
+[4.960s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/VLP-16R.urdf.xacro
+[4.961s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/all_sensors.urdf.xacro
+[4.961s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/urdf/magnetometer.urdf.xacro
+[4.961s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/ament_index/resource_index/package_run_dependencies/eufs_sensors
+[4.962s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/ament_index/resource_index/parent_prefix_path/eufs_sensors
+[4.962s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/environment/ament_prefix_path.sh
+[4.962s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/environment/ament_prefix_path.dsv
+[4.962s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/environment/path.sh
+[4.963s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/environment/path.dsv
+[4.963s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/local_setup.bash
+[4.963s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/local_setup.sh
+[4.963s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/local_setup.zsh
+[4.963s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/local_setup.dsv
+[4.963s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/package.dsv
+[4.964s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/ament_index/resource_index/packages/eufs_sensors
+[4.964s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.964s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/cmake/eufs_sensorsConfig.cmake
+[4.964s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/cmake/eufs_sensorsConfig-version.cmake
+[4.964s] -- Installing: /home/gusta/balbino_eufs/install/eufs_sensors/share/eufs_sensors/package.xml
+[4.965s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gusta/balbino_eufs/build/eufs_sensors

@@ -1,0 +1,1355 @@
+[0.042s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gusta/balbino_eufs/eufs_msgs -DCMAKE_INSTALL_PREFIX=/home/gusta/balbino_eufs/install/eufs_msgs
+[0.714s] -- The C compiler identification is GNU 11.3.0
+[2.118s] -- The CXX compiler identification is GNU 11.3.0
+[2.964s] -- Detecting C compiler ABI info
+[3.425s] -- Detecting C compiler ABI info - done
+[3.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.434s] -- Detecting C compile features
+[3.435s] -- Detecting C compile features - done
+[3.441s] -- Detecting CXX compiler ABI info
+[3.929s] -- Detecting CXX compiler ABI info - done
+[3.940s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.940s] -- Detecting CXX compile features
+[3.941s] -- Detecting CXX compile features - done
+[3.944s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.209s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.371s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.387s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.006s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[5.075s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.119s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.854s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.020s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[7.026s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.503s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[8.503s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.503s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.503s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.529s] -- Found PythonExtra: .so  
+[8.703s] -- Configuring done
+[8.805s] -- Generating done
+[8.808s] -- Build files have been written to: /home/gusta/balbino_eufs/build/eufs_msgs
+[8.822s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gusta/balbino_eufs/eufs_msgs -DCMAKE_INSTALL_PREFIX=/home/gusta/balbino_eufs/install/eufs_msgs
+[8.822s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gusta/balbino_eufs/build/eufs_msgs -- -j4 -l4
+[8.877s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.892s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.896s] [  0%] Built target ament_cmake_python_copy_eufs_msgs
+[9.241s] running egg_info
+[9.242s] creating eufs_msgs.egg-info
+[9.242s] writing eufs_msgs.egg-info/PKG-INFO
+[9.243s] writing dependency_links to eufs_msgs.egg-info/dependency_links.txt
+[9.243s] writing top-level names to eufs_msgs.egg-info/top_level.txt
+[9.244s] writing manifest file 'eufs_msgs.egg-info/SOURCES.txt'
+[9.247s] reading manifest file 'eufs_msgs.egg-info/SOURCES.txt'
+[9.247s] writing manifest file 'eufs_msgs.egg-info/SOURCES.txt'
+[9.283s] [  0%] Built target ament_cmake_python_build_eufs_msgs_egg
+[13.240s] [  0%] Built target eufs_msgs__cpp
+[13.251s] [  0%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.303s] [  0%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.333s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.846s] [  2%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/bounding_box__functions.c.o[0m
+[13.910s] [  2%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/bounding_boxes__functions.c.o[0m
+[13.953s] [  2%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/can_state__functions.c.o[0m
+[13.993s] [  3%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/car_state__functions.c.o[0m
+[14.051s] [  3%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/chassis_command__functions.c.o[0m
+[14.104s] [  3%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/chassis_state__functions.c.o[0m
+[14.151s] [  3%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/cone_array__functions.c.o[0m
+[14.207s] [  4%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/cone_array_with_covariance__functions.c.o[0m
+[14.259s] [  4%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/cone_with_covariance__functions.c.o[0m
+[14.309s] [  4%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/costmap__functions.c.o[0m
+[14.360s] [  5%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/ekf_err__functions.c.o[0m
+[14.411s] [  5%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/ekf_state__functions.c.o[0m
+[14.459s] [  5%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/full_state__functions.c.o[0m
+[14.511s] [  5%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/heartbeat__functions.c.o[0m
+[14.555s] [  6%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/integration_err__functions.c.o[0m
+[14.612s] [  6%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/lap_stats__functions.c.o[0m
+[14.661s] [  6%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/node_state__functions.c.o[0m
+[14.712s] [  7%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/node_state_array__functions.c.o[0m
+[14.766s] [  7%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/path_integral_params__functions.c.o[0m
+[14.814s] [  7%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/path_integral_stats__functions.c.o[0m
+[14.860s] [  7%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/path_integral_status__functions.c.o[0m
+[14.912s] [  8%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/path_integral_timing__functions.c.o[0m
+[14.960s] [  8%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/point_array__functions.c.o[0m
+[15.008s] [  8%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/point_array_stamped__functions.c.o[0m
+[15.052s] [  9%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/runstop__functions.c.o[0m
+[15.098s] [  9%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/slam_err__functions.c.o[0m
+[15.145s] [  9%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/slam_state__functions.c.o[0m
+[15.192s] [ 10%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/state_machine_state__functions.c.o[0m
+[15.239s] [ 10%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/system_status__functions.c.o[0m
+[15.294s] [ 10%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/topic_status__functions.c.o[0m
+[15.336s] [ 10%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/vehicle_commands__functions.c.o[0m
+[15.384s] [ 11%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/vehicle_commands_stamped__functions.c.o[0m
+[15.436s] [ 11%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/waypoint__functions.c.o[0m
+[15.485s] [ 11%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/waypoint_array_stamped__functions.c.o[0m
+[15.533s] [ 12%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/wheel_odometry_err__functions.c.o[0m
+[15.581s] [ 12%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/wheel_speeds__functions.c.o[0m
+[15.629s] [ 12%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/msg/detail/wheel_speeds_stamped__functions.c.o[0m
+[15.681s] [ 12%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/action/detail/check_for_objects__functions.c.o[0m
+[15.822s] [ 13%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/srv/detail/register__functions.c.o[0m
+[15.885s] [ 13%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_c.dir/rosidl_generator_c/eufs_msgs/srv/detail/set_can_state__functions.c.o[0m
+[15.943s] [ 13%] [32m[1mLinking C shared library libeufs_msgs__rosidl_generator_c.so[0m
+[16.109s] [ 14%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/bounding_box__type_support.cpp.o[0m
+[16.257s] [ 14%] Built target eufs_msgs__rosidl_generator_c
+[16.276s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.420s] [ 15%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/bounding_boxes__type_support.cpp.o[0m
+[16.767s] [ 15%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/can_state__type_support.cpp.o[0m
+[17.035s] [ 16%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/car_state__type_support.cpp.o[0m
+[17.097s] [ 16%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/bounding_box__type_support.cpp.o[0m
+[17.318s] [ 16%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/chassis_command__type_support.cpp.o[0m
+[17.469s] [ 17%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o[0m
+[17.514s] [ 17%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/bounding_boxes__type_support.cpp.o[0m
+[17.595s] [ 17%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/chassis_state__type_support.cpp.o[0m
+[17.872s] [ 17%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/cone_array__type_support.cpp.o[0m
+[17.877s] [ 17%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o[0m
+[17.952s] [ 17%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/can_state__type_support.cpp.o[0m
+[18.175s] [ 18%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/cone_array_with_covariance__type_support.cpp.o[0m
+[18.348s] [ 18%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/can_state__type_support.cpp.o[0m
+[18.367s] [ 19%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/car_state__type_support.cpp.o[0m
+[18.436s] [ 19%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/cone_with_covariance__type_support.cpp.o[0m
+[18.687s] [ 19%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/costmap__type_support.cpp.o[0m
+[18.772s] [ 20%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/car_state__type_support.cpp.o[0m
+[18.819s] [ 20%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/chassis_command__type_support.cpp.o[0m
+[18.960s] [ 21%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/ekf_err__type_support.cpp.o[0m
+[19.211s] [ 21%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/chassis_state__type_support.cpp.o[0m
+[19.231s] [ 21%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/chassis_command__type_support.cpp.o[0m
+[19.263s] [ 21%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/ekf_state__type_support.cpp.o[0m
+[19.530s] [ 21%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/full_state__type_support.cpp.o[0m
+[19.629s] [ 22%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/cone_array__type_support.cpp.o[0m
+[19.648s] [ 22%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/chassis_state__type_support.cpp.o[0m
+[19.816s] [ 22%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/heartbeat__type_support.cpp.o[0m
+[20.079s] [ 23%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/integration_err__type_support.cpp.o[0m
+[20.102s] [ 24%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/cone_array__type_support.cpp.o[0m
+[20.114s] [ 24%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/cone_array_with_covariance__type_support.cpp.o[0m
+[20.314s] [ 24%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/bounding_box__type_support_c.cpp.o[0m
+[20.377s] [ 24%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/lap_stats__type_support.cpp.o[0m
+[20.581s] [ 24%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/cone_array_with_covariance__type_support.cpp.o[0m
+[20.606s] [ 24%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/cone_with_covariance__type_support.cpp.o[0m
+[20.681s] [ 24%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/node_state__type_support.cpp.o[0m
+[20.686s] [ 24%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/bounding_boxes__type_support_c.cpp.o[0m
+[20.951s] [ 25%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/node_state_array__type_support.cpp.o[0m
+[21.028s] [ 25%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/costmap__type_support.cpp.o[0m
+[21.037s] [ 26%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/can_state__type_support_c.cpp.o[0m
+[21.066s] [ 26%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/cone_with_covariance__type_support.cpp.o[0m
+[21.233s] [ 26%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/path_integral_params__type_support.cpp.o[0m
+[21.380s] [ 26%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/car_state__type_support_c.cpp.o[0m
+[21.474s] [ 27%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/ekf_err__type_support.cpp.o[0m
+[21.512s] [ 27%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/costmap__type_support.cpp.o[0m
+[21.523s] [ 27%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/path_integral_stats__type_support.cpp.o[0m
+[21.734s] [ 27%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/chassis_command__type_support_c.cpp.o[0m
+[21.795s] [ 28%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/path_integral_status__type_support.cpp.o[0m
+[21.892s] [ 28%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/ekf_state__type_support.cpp.o[0m
+[22.012s] [ 29%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/ekf_err__type_support.cpp.o[0m
+[22.060s] [ 29%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/path_integral_timing__type_support.cpp.o[0m
+[22.096s] [ 29%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/chassis_state__type_support_c.cpp.o[0m
+[22.307s] [ 29%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/full_state__type_support.cpp.o[0m
+[22.336s] [ 29%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/point_array__type_support.cpp.o[0m
+[22.432s] [ 29%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/ekf_state__type_support.cpp.o[0m
+[22.460s] [ 30%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/cone_array__type_support_c.cpp.o[0m
+[22.604s] [ 30%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/point_array_stamped__type_support.cpp.o[0m
+[22.719s] [ 31%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/heartbeat__type_support.cpp.o[0m
+[22.831s] [ 31%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/cone_array_with_covariance__type_support_c.cpp.o[0m
+[22.874s] [ 31%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/full_state__type_support.cpp.o[0m
+[22.901s] [ 32%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/runstop__type_support.cpp.o[0m
+[23.099s] [ 32%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/integration_err__type_support.cpp.o[0m
+[23.193s] [ 32%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/slam_err__type_support.cpp.o[0m
+[23.194s] [ 32%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/cone_with_covariance__type_support_c.cpp.o[0m
+[23.279s] [ 33%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/heartbeat__type_support.cpp.o[0m
+[23.453s] [ 33%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/slam_state__type_support.cpp.o[0m
+[23.525s] [ 33%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/lap_stats__type_support.cpp.o[0m
+[23.542s] [ 34%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/costmap__type_support_c.cpp.o[0m
+[23.713s] [ 34%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/integration_err__type_support.cpp.o[0m
+[23.748s] [ 35%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/state_machine_state__type_support.cpp.o[0m
+[23.913s] [ 35%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/ekf_err__type_support_c.cpp.o[0m
+[23.930s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/node_state__type_support.cpp.o[0m
+[24.033s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/system_status__type_support.cpp.o[0m
+[24.148s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/lap_stats__type_support.cpp.o[0m
+[24.306s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/ekf_state__type_support_c.cpp.o[0m
+[24.347s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/topic_status__type_support.cpp.o[0m
+[24.444s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/node_state_array__type_support.cpp.o[0m
+[24.734s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/node_state__type_support.cpp.o[0m
+[24.754s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/vehicle_commands__type_support.cpp.o[0m
+[24.808s] [ 36%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/full_state__type_support_c.cpp.o[0m
+[25.106s] [ 37%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/vehicle_commands_stamped__type_support.cpp.o[0m
+[25.108s] [ 37%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/path_integral_params__type_support.cpp.o[0m
+[25.335s] [ 38%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/heartbeat__type_support_c.cpp.o[0m
+[25.336s] [ 39%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/node_state_array__type_support.cpp.o[0m
+[25.520s] [ 39%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/waypoint__type_support.cpp.o[0m
+[25.716s] [ 39%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/path_integral_stats__type_support.cpp.o[0m
+[25.785s] [ 39%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/integration_err__type_support_c.cpp.o[0m
+[25.883s] [ 39%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/waypoint_array_stamped__type_support.cpp.o[0m
+[25.931s] [ 39%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/path_integral_params__type_support.cpp.o[0m
+[26.215s] [ 39%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/lap_stats__type_support_c.cpp.o[0m
+[26.224s] [ 40%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/path_integral_status__type_support.cpp.o[0m
+[26.224s] [ 41%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/wheel_odometry_err__type_support.cpp.o[0m
+[26.461s] [ 41%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/path_integral_stats__type_support.cpp.o[0m
+[26.550s] [ 41%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/wheel_speeds__type_support.cpp.o[0m
+[26.644s] [ 42%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/node_state__type_support_c.cpp.o[0m
+[26.731s] [ 42%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/path_integral_timing__type_support.cpp.o[0m
+[26.884s] [ 42%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/msg/wheel_speeds_stamped__type_support.cpp.o[0m
+[26.989s] [ 43%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/path_integral_status__type_support.cpp.o[0m
+[27.074s] [ 43%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/node_state_array__type_support_c.cpp.o[0m
+[27.212s] [ 43%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/point_array__type_support.cpp.o[0m
+[27.224s] [ 43%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/action/check_for_objects__type_support.cpp.o[0m
+[27.483s] [ 43%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/path_integral_timing__type_support.cpp.o[0m
+[27.502s] [ 43%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/path_integral_params__type_support_c.cpp.o[0m
+[27.760s] [ 44%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/point_array_stamped__type_support.cpp.o[0m
+[27.811s] [ 45%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/srv/register__type_support.cpp.o[0m
+[27.932s] [ 45%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/path_integral_stats__type_support_c.cpp.o[0m
+[27.986s] [ 45%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[28.143s] [ 45%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/eufs_msgs/srv/set_can_state__type_support.cpp.o[0m
+[28.308s] [ 45%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/runstop__type_support.cpp.o[0m
+[28.350s] [ 46%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/path_integral_status__type_support_c.cpp.o[0m
+[28.504s] [ 46%] [32m[1mLinking CXX shared library libeufs_msgs__rosidl_typesupport_cpp.so[0m
+[28.535s] [ 46%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/point_array_stamped__type_support.cpp.o[0m
+[28.786s] [ 46%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/path_integral_timing__type_support_c.cpp.o[0m
+[28.849s] [ 46%] Built target eufs_msgs__rosidl_typesupport_cpp
+[28.867s] [ 47%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.936s] [ 47%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/slam_err__type_support.cpp.o[0m
+[29.117s] [ 48%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/runstop__type_support.cpp.o[0m
+[29.198s] [ 48%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/point_array__type_support_c.cpp.o[0m
+[29.416s] [ 48%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/slam_state__type_support.cpp.o[0m
+[29.594s] [ 48%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/slam_err__type_support.cpp.o[0m
+[29.600s] [ 49%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/point_array_stamped__type_support_c.cpp.o[0m
+[29.913s] [ 50%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/state_machine_state__type_support.cpp.o[0m
+[30.042s] [ 50%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/runstop__type_support_c.cpp.o[0m
+[30.105s] [ 50%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/slam_state__type_support.cpp.o[0m
+[30.418s] [ 50%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/system_status__type_support.cpp.o[0m
+[30.484s] [ 50%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/slam_err__type_support_c.cpp.o[0m
+[30.637s] [ 51%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/state_machine_state__type_support.cpp.o[0m
+[30.926s] [ 52%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/slam_state__type_support_c.cpp.o[0m
+[30.995s] [ 52%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/topic_status__type_support.cpp.o[0m
+[31.150s] [ 52%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[31.374s] [ 52%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/state_machine_state__type_support_c.cpp.o[0m
+[31.467s] [ 53%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/vehicle_commands__type_support.cpp.o[0m
+[31.777s] [ 53%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/topic_status__type_support.cpp.o[0m
+[31.860s] [ 53%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/system_status__type_support_c.cpp.o[0m
+[32.034s] [ 53%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/vehicle_commands_stamped__type_support.cpp.o[0m
+[32.348s] [ 54%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/vehicle_commands__type_support.cpp.o[0m
+[32.351s] [ 54%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/topic_status__type_support_c.cpp.o[0m
+[32.670s] [ 54%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/waypoint__type_support.cpp.o[0m
+[32.803s] [ 55%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/vehicle_commands__type_support_c.cpp.o[0m
+[32.841s] [ 55%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/vehicle_commands_stamped__type_support.cpp.o[0m
+[33.230s] [ 55%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/waypoint_array_stamped__type_support.cpp.o[0m
+[33.288s] [ 55%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/vehicle_commands_stamped__type_support_c.cpp.o[0m
+[33.433s] [ 55%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[33.726s] [ 55%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/bounding_box__type_support.c.o[0m
+[33.763s] [ 55%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/bounding_boxes__type_support.c.o[0m
+[33.791s] [ 55%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/waypoint__type_support_c.cpp.o[0m
+[33.810s] [ 56%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/can_state__type_support.c.o[0m
+[33.854s] [ 56%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/car_state__type_support.c.o[0m
+[33.888s] [ 57%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/wheel_odometry_err__type_support.cpp.o[0m
+[33.911s] [ 57%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/chassis_command__type_support.c.o[0m
+[33.950s] [ 57%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/chassis_state__type_support.c.o[0m
+[33.991s] [ 58%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/cone_array__type_support.c.o[0m
+[34.015s] [ 58%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/waypoint_array_stamped__type_support.cpp.o[0m
+[34.052s] [ 58%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/cone_array_with_covariance__type_support.c.o[0m
+[34.114s] [ 58%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/cone_with_covariance__type_support.c.o[0m
+[34.158s] [ 59%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/costmap__type_support.c.o[0m
+[34.212s] [ 59%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/ekf_err__type_support.c.o[0m
+[34.255s] [ 60%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/waypoint_array_stamped__type_support_c.cpp.o[0m
+[34.257s] [ 60%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/ekf_state__type_support.c.o[0m
+[34.296s] [ 61%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/full_state__type_support.c.o[0m
+[34.339s] [ 61%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/heartbeat__type_support.c.o[0m
+[34.376s] [ 61%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/integration_err__type_support.c.o[0m
+[34.418s] [ 61%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/wheel_speeds__type_support.cpp.o[0m
+[34.418s] [ 61%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/lap_stats__type_support.c.o[0m
+[34.461s] [ 62%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/node_state__type_support.c.o[0m
+[34.498s] [ 62%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/node_state_array__type_support.c.o[0m
+[34.551s] [ 62%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/path_integral_params__type_support.c.o[0m
+[34.599s] [ 63%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/path_integral_stats__type_support.c.o[0m
+[34.612s] [ 64%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/wheel_odometry_err__type_support.cpp.o[0m
+[34.637s] [ 64%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/path_integral_status__type_support.c.o[0m
+[34.679s] [ 64%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/path_integral_timing__type_support.c.o[0m
+[34.722s] [ 64%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/point_array__type_support.c.o[0m
+[34.732s] [ 64%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/wheel_odometry_err__type_support_c.cpp.o[0m
+[34.773s] [ 65%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/point_array_stamped__type_support.c.o[0m
+[34.819s] [ 65%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/runstop__type_support.c.o[0m
+[34.868s] [ 65%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/slam_err__type_support.c.o[0m
+[34.904s] [ 66%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/slam_state__type_support.c.o[0m
+[34.938s] [ 66%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/state_machine_state__type_support.c.o[0m
+[34.956s] [ 66%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/msg/detail/wheel_speeds_stamped__type_support.cpp.o[0m
+[34.976s] [ 66%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/system_status__type_support.c.o[0m
+[35.020s] [ 66%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/topic_status__type_support.c.o[0m
+[35.060s] [ 67%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/vehicle_commands__type_support.c.o[0m
+[35.102s] [ 67%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/vehicle_commands_stamped__type_support.c.o[0m
+[35.149s] [ 67%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/waypoint__type_support.c.o[0m
+[35.164s] [ 67%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/wheel_speeds__type_support.cpp.o[0m
+[35.189s] [ 68%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/waypoint_array_stamped__type_support.c.o[0m
+[35.192s] [ 68%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/wheel_speeds__type_support_c.cpp.o[0m
+[35.241s] [ 68%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/wheel_odometry_err__type_support.c.o[0m
+[35.286s] [ 68%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/wheel_speeds__type_support.c.o[0m
+[35.336s] [ 69%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/msg/detail/wheel_speeds_stamped__type_support.c.o[0m
+[35.385s] [ 69%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/action/detail/check_for_objects__type_support.c.o[0m
+[35.450s] [ 69%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/srv/detail/register__type_support.c.o[0m
+[35.495s] [ 69%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/eufs_msgs/srv/detail/set_can_state__type_support.c.o[0m
+[35.546s] [ 70%] [32m[1mLinking C shared library libeufs_msgs__rosidl_typesupport_introspection_c.so[0m
+[35.554s] [ 71%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/action/detail/check_for_objects__type_support.cpp.o[0m
+[35.743s] [ 71%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/msg/detail/wheel_speeds_stamped__type_support_c.cpp.o[0m
+[35.803s] [ 71%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/msg/detail/dds_fastrtps/wheel_speeds_stamped__type_support.cpp.o[0m
+[35.937s] [ 71%] Built target eufs_msgs__rosidl_typesupport_introspection_c
+[35.954s] [ 72%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[36.228s] [ 73%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/action/detail/check_for_objects__type_support_c.cpp.o[0m
+[36.394s] [ 74%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/action/detail/dds_fastrtps/check_for_objects__type_support.cpp.o[0m
+[36.615s] [ 74%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/srv/detail/register__type_support.cpp.o[0m
+[36.761s] [ 74%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/srv/detail/register__type_support_c.cpp.o[0m
+[37.099s] [ 74%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/eufs_msgs/srv/detail/set_can_state__type_support.cpp.o[0m
+[37.135s] [ 74%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/srv/detail/dds_fastrtps/register__type_support.cpp.o[0m
+[37.205s] [ 74%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/eufs_msgs/srv/detail/set_can_state__type_support_c.cpp.o[0m
+[37.581s] [ 75%] [32m[1mLinking CXX shared library libeufs_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[37.643s] [ 75%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/eufs_msgs/srv/detail/dds_fastrtps/set_can_state__type_support.cpp.o[0m
+[37.680s] [ 76%] [32m[1mLinking CXX shared library libeufs_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[38.119s] [ 76%] Built target eufs_msgs__rosidl_typesupport_introspection_cpp
+[38.243s] [ 76%] [32m[1mLinking CXX shared library libeufs_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[38.264s] [ 76%] Built target eufs_msgs__rosidl_typesupport_fastrtps_c
+[38.726s] [ 76%] Built target eufs_msgs__rosidl_typesupport_fastrtps_cpp
+[38.966s] [ 77%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/bounding_boxes__type_support.cpp.o[0m
+[38.966s] [ 77%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/can_state__type_support.cpp.o[0m
+[38.967s] [ 77%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/car_state__type_support.cpp.o[0m
+[38.967s] [ 77%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/bounding_box__type_support.cpp.o[0m
+[38.995s] [ 77%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/chassis_state__type_support.cpp.o[0m
+[38.995s] [ 77%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/chassis_command__type_support.cpp.o[0m
+[39.000s] [ 78%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/cone_array__type_support.cpp.o[0m
+[39.003s] [ 78%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/cone_array_with_covariance__type_support.cpp.o[0m
+[39.023s] [ 78%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/cone_with_covariance__type_support.cpp.o[0m
+[39.028s] [ 78%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/costmap__type_support.cpp.o[0m
+[39.033s] [ 79%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/ekf_err__type_support.cpp.o[0m
+[39.034s] [ 79%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/ekf_state__type_support.cpp.o[0m
+[39.054s] [ 79%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/full_state__type_support.cpp.o[0m
+[39.058s] [ 80%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/heartbeat__type_support.cpp.o[0m
+[39.065s] [ 80%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/integration_err__type_support.cpp.o[0m
+[39.067s] [ 80%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/lap_stats__type_support.cpp.o[0m
+[39.094s] [ 81%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/node_state__type_support.cpp.o[0m
+[39.098s] [ 81%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/node_state_array__type_support.cpp.o[0m
+[39.104s] [ 81%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/path_integral_stats__type_support.cpp.o[0m
+[39.104s] [ 81%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/path_integral_params__type_support.cpp.o[0m
+[39.131s] [ 82%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/path_integral_timing__type_support.cpp.o[0m
+[39.131s] [ 82%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/path_integral_status__type_support.cpp.o[0m
+[39.133s] [ 82%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/point_array__type_support.cpp.o[0m
+[39.136s] [ 83%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/point_array_stamped__type_support.cpp.o[0m
+[39.160s] [ 83%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/runstop__type_support.cpp.o[0m
+[39.163s] [ 83%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/slam_err__type_support.cpp.o[0m
+[39.165s] [ 83%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/slam_state__type_support.cpp.o[0m
+[39.180s] [ 84%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/state_machine_state__type_support.cpp.o[0m
+[39.191s] [ 84%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/system_status__type_support.cpp.o[0m
+[39.195s] [ 84%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/topic_status__type_support.cpp.o[0m
+[39.199s] [ 85%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/vehicle_commands__type_support.cpp.o[0m
+[39.214s] [ 85%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/vehicle_commands_stamped__type_support.cpp.o[0m
+[39.223s] [ 85%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/waypoint__type_support.cpp.o[0m
+[39.226s] [ 85%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/waypoint_array_stamped__type_support.cpp.o[0m
+[39.232s] [ 86%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/wheel_odometry_err__type_support.cpp.o[0m
+[39.246s] [ 86%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/wheel_speeds__type_support.cpp.o[0m
+[39.259s] [ 86%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/msg/wheel_speeds_stamped__type_support.cpp.o[0m
+[39.264s] [ 87%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/action/check_for_objects__type_support.cpp.o[0m
+[39.269s] [ 87%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/srv/register__type_support.cpp.o[0m
+[39.281s] [ 87%] [32mBuilding CXX object CMakeFiles/eufs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/eufs_msgs/srv/set_can_state__type_support.cpp.o[0m
+[39.320s] [ 88%] [32m[1mLinking CXX shared library libeufs_msgs__rosidl_typesupport_c.so[0m
+[39.579s] [ 88%] Built target eufs_msgs__rosidl_typesupport_c
+[39.597s] [ 88%] Built target eufs_msgs
+[39.616s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[45.865s] [ 88%] Built target eufs_msgs__py
+[45.883s] [ 88%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_car_state_s.c.o[0m
+[45.883s] [ 88%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_can_state_s.c.o[0m
+[45.884s] [ 88%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_bounding_boxes_s.c.o[0m
+[45.884s] [ 89%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_bounding_box_s.c.o[0m
+[46.033s] [ 90%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_chassis_command_s.c.o[0m
+[46.038s] [ 90%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_cone_array_s.c.o[0m
+[46.038s] [ 90%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_chassis_state_s.c.o[0m
+[46.045s] [ 91%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_cone_array_with_covariance_s.c.o[0m
+[46.143s] [ 91%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_cone_with_covariance_s.c.o[0m
+[46.148s] [ 91%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_costmap_s.c.o[0m
+[46.162s] [ 92%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_ekf_err_s.c.o[0m
+[46.168s] [ 92%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_ekf_state_s.c.o[0m
+[46.240s] [ 92%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_full_state_s.c.o[0m
+[46.271s] [ 92%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_heartbeat_s.c.o[0m
+[46.281s] [ 93%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_integration_err_s.c.o[0m
+[46.287s] [ 93%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_lap_stats_s.c.o[0m
+[46.364s] [ 93%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_node_state_s.c.o[0m
+[46.381s] [ 94%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_node_state_array_s.c.o[0m
+[46.396s] [ 94%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_path_integral_params_s.c.o[0m
+[46.404s] [ 94%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_path_integral_stats_s.c.o[0m
+[46.481s] [ 94%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_path_integral_status_s.c.o[0m
+[46.502s] [ 95%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_path_integral_timing_s.c.o[0m
+[46.508s] [ 95%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_point_array_s.c.o[0m
+[46.513s] [ 95%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_point_array_stamped_s.c.o[0m
+[46.603s] [ 96%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_runstop_s.c.o[0m
+[46.611s] [ 96%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_slam_err_s.c.o[0m
+[46.627s] [ 96%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_slam_state_s.c.o[0m
+[46.628s] [ 96%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_state_machine_state_s.c.o[0m
+[46.715s] [ 97%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_system_status_s.c.o[0m
+[46.722s] [ 97%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_vehicle_commands_s.c.o[0m
+[46.723s] [ 97%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_topic_status_s.c.o[0m
+[46.735s] [ 98%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_vehicle_commands_stamped_s.c.o[0m
+[46.830s] [ 98%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_waypoint_s.c.o[0m
+[46.837s] [ 99%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_wheel_odometry_err_s.c.o[0m
+[46.838s] [ 99%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_waypoint_array_stamped_s.c.o[0m
+[46.842s] [ 99%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_wheel_speeds_s.c.o[0m
+[46.941s] [ 99%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/msg/_wheel_speeds_stamped_s.c.o[0m
+[46.949s] [100%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/srv/_register_s.c.o[0m
+[46.950s] [100%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/action/_check_for_objects_s.c.o[0m
+[46.954s] [100%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_generator_py.dir/rosidl_generator_py/eufs_msgs/srv/_set_can_state_s.c.o[0m
+[47.096s] [100%] [32m[1mLinking C shared library rosidl_generator_py/eufs_msgs/libeufs_msgs__rosidl_generator_py.so[0m
+[47.379s] [100%] Built target eufs_msgs__rosidl_generator_py
+[47.396s] [100%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/eufs_msgs/_eufs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[47.396s] [100%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/eufs_msgs/_eufs_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[47.396s] [100%] [32mBuilding C object CMakeFiles/eufs_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/eufs_msgs/_eufs_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[47.627s] [100%] [32m[1mLinking C shared library rosidl_generator_py/eufs_msgs/eufs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[47.627s] [100%] [32m[1mLinking C shared library rosidl_generator_py/eufs_msgs/eufs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[47.639s] [100%] [32m[1mLinking C shared library rosidl_generator_py/eufs_msgs/eufs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[47.958s] [100%] Built target eufs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[47.962s] [100%] Built target eufs_msgs__rosidl_typesupport_c__pyext
+[48.126s] [100%] Built target eufs_msgs__rosidl_typesupport_introspection_c__pyext
+[48.138s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gusta/balbino_eufs/build/eufs_msgs -- -j4 -l4
+[48.799s] Invoking command in '/home/gusta/balbino_eufs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gusta/balbino_eufs/build/eufs_msgs
+[48.805s] -- Install configuration: ""
+[48.806s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/ament_index/resource_index/rosidl_interfaces/eufs_msgs
+[48.806s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs
+[48.807s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv
+[48.807s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail
+[48.807s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__type_support.h
+[48.807s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__functions.h
+[48.808s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__type_support.h
+[48.808s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__functions.c
+[48.808s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__functions.c
+[48.809s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__struct.h
+[48.809s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__functions.h
+[48.809s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__struct.h
+[48.809s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/register.h
+[48.810s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/set_can_state.h
+[48.811s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action
+[48.812s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/check_for_objects.h
+[48.812s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail
+[48.812s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__struct.h
+[48.812s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__type_support.h
+[48.813s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__functions.h
+[48.813s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__functions.c
+[48.813s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg
+[48.813s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/path_integral_status.h
+[48.813s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/vehicle_commands_stamped.h
+[48.814s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/cone_with_covariance.h
+[48.814s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/integration_err.h
+[48.814s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/node_state_array.h
+[48.814s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/topic_status.h
+[48.814s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/point_array.h
+[48.815s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/cone_array_with_covariance.h
+[48.815s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/ekf_err.h
+[48.815s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/cone_array.h
+[48.815s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/lap_stats.h
+[48.815s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/node_state.h
+[48.816s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/full_state.h
+[48.816s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/bounding_box.h
+[48.816s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/waypoint.h
+[48.816s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/wheel_odometry_err.h
+[48.816s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/point_array_stamped.h
+[48.816s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/rosidl_generator_c__visibility_control.h
+[48.817s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/runstop.h
+[48.817s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/chassis_state.h
+[48.817s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/slam_state.h
+[48.817s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/car_state.h
+[48.818s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/path_integral_stats.h
+[48.818s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail
+[48.818s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__functions.h
+[48.818s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__functions.c
+[48.818s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__struct.h
+[48.819s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__functions.c
+[48.819s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__struct.h
+[48.819s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__functions.c
+[48.819s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__functions.c
+[48.819s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__type_support.h
+[48.820s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__struct.h
+[48.820s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__type_support.h
+[48.820s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__functions.h
+[48.820s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__functions.h
+[48.820s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__struct.h
+[48.821s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__struct.h
+[48.821s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__functions.c
+[48.821s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__type_support.h
+[48.821s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__type_support.h
+[48.821s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__functions.c
+[48.822s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__type_support.h
+[48.822s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__functions.h
+[48.823s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__functions.h
+[48.823s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__struct.h
+[48.823s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__functions.h
+[48.824s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__functions.h
+[48.824s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__functions.h
+[48.825s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__struct.h
+[48.825s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__type_support.h
+[48.826s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__type_support.h
+[48.827s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__functions.h
+[48.827s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__functions.h
+[48.827s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__functions.c
+[48.827s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__functions.h
+[48.827s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__functions.h
+[48.828s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__type_support.h
+[48.828s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__struct.h
+[48.828s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__functions.h
+[48.828s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__type_support.h
+[48.829s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__struct.h
+[48.829s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__type_support.h
+[48.829s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__functions.h
+[48.829s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__struct.h
+[48.830s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__functions.c
+[48.830s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__functions.c
+[48.830s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__struct.h
+[48.830s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__struct.h
+[48.830s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__functions.c
+[48.830s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__struct.h
+[48.831s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__struct.h
+[48.831s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__struct.h
+[48.831s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__functions.c
+[48.831s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__functions.c
+[48.831s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__functions.c
+[48.832s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__type_support.h
+[48.832s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__functions.c
+[48.832s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__struct.h
+[48.832s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__functions.c
+[48.832s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__struct.h
+[48.832s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__functions.h
+[48.833s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__functions.c
+[48.833s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__type_support.h
+[48.833s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__functions.c
+[48.833s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__type_support.h
+[48.833s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__functions.c
+[48.833s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__functions.c
+[48.834s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__struct.h
+[48.834s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__type_support.h
+[48.834s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__type_support.h
+[48.834s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__functions.h
+[48.834s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__type_support.h
+[48.835s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__type_support.h
+[48.835s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__functions.c
+[48.835s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__struct.h
+[48.835s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__type_support.h
+[48.836s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__type_support.h
+[48.836s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__type_support.h
+[48.836s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__struct.h
+[48.836s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__functions.c
+[48.836s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__functions.h
+[48.837s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__functions.h
+[48.837s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__struct.h
+[48.837s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__functions.h
+[48.837s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__functions.c
+[48.837s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__struct.h
+[48.838s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__functions.c
+[48.838s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__functions.h
+[48.838s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__functions.c
+[48.838s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__struct.h
+[48.838s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__type_support.h
+[48.839s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__type_support.h
+[48.839s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__type_support.h
+[48.839s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__struct.h
+[48.840s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__functions.c
+[48.840s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__functions.h
+[48.840s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__functions.h
+[48.841s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__functions.c
+[48.841s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__functions.c
+[48.842s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__functions.h
+[48.842s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__functions.h
+[48.843s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__struct.h
+[48.843s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__struct.h
+[48.844s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__type_support.h
+[48.844s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__type_support.h
+[48.844s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__type_support.h
+[48.844s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__struct.h
+[48.844s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__functions.h
+[48.845s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__struct.h
+[48.845s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__functions.h
+[48.845s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__struct.h
+[48.845s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__struct.h
+[48.845s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__functions.c
+[48.846s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__functions.h
+[48.846s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__functions.h
+[48.846s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__type_support.h
+[48.847s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__functions.h
+[48.847s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__struct.h
+[48.847s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__functions.h
+[48.847s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__type_support.h
+[48.847s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__functions.h
+[48.847s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__functions.h
+[48.848s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__functions.h
+[48.848s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__functions.c
+[48.848s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__type_support.h
+[48.848s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__type_support.h
+[48.848s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__type_support.h
+[48.848s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__type_support.h
+[48.848s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__struct.h
+[48.849s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__type_support.h
+[48.849s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__type_support.h
+[48.849s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__functions.h
+[48.849s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__struct.h
+[48.849s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__functions.h
+[48.849s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__functions.h
+[48.850s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__functions.c
+[48.850s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__struct.h
+[48.850s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__type_support.h
+[48.850s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__functions.c
+[48.850s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__struct.h
+[48.851s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__struct.h
+[48.851s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__struct.h
+[48.851s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__functions.c
+[48.851s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__functions.c
+[48.852s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__functions.c
+[48.852s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__functions.c
+[48.852s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__type_support.h
+[48.852s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__functions.h
+[48.852s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__type_support.h
+[48.853s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__functions.c
+[48.853s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__functions.c
+[48.853s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/waypoint_array_stamped.h
+[48.853s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/wheel_speeds.h
+[48.853s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/chassis_command.h
+[48.853s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/can_state.h
+[48.854s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/slam_err.h
+[48.854s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/state_machine_state.h
+[48.854s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/path_integral_params.h
+[48.854s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/wheel_speeds_stamped.h
+[48.854s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/vehicle_commands.h
+[48.854s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/costmap.h
+[48.855s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/ekf_state.h
+[48.855s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/heartbeat.h
+[48.856s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/bounding_boxes.h
+[48.856s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/path_integral_timing.h
+[48.856s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/system_status.h
+[48.857s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/environment/library_path.sh
+[48.857s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/environment/library_path.dsv
+[48.857s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_generator_c.so
+[48.858s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_generator_c.so" to ""
+[48.858s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs
+[48.859s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv
+[48.860s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail
+[48.860s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__rosidl_typesupport_fastrtps_c.h
+[48.860s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__rosidl_typesupport_fastrtps_c.h
+[48.860s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action
+[48.861s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail
+[48.861s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__rosidl_typesupport_fastrtps_c.h
+[48.861s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg
+[48.861s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[48.861s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail
+[48.861s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__rosidl_typesupport_fastrtps_c.h
+[48.862s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__rosidl_typesupport_fastrtps_c.h
+[48.862s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[48.862s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__rosidl_typesupport_fastrtps_c.h
+[48.862s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__rosidl_typesupport_fastrtps_c.h
+[48.863s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__rosidl_typesupport_fastrtps_c.h
+[48.863s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__rosidl_typesupport_fastrtps_c.h
+[48.863s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__rosidl_typesupport_fastrtps_c.h
+[48.863s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__rosidl_typesupport_fastrtps_c.h
+[48.863s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__rosidl_typesupport_fastrtps_c.h
+[48.864s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__rosidl_typesupport_fastrtps_c.h
+[48.864s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_c.h
+[48.864s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__rosidl_typesupport_fastrtps_c.h
+[48.864s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[48.864s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__rosidl_typesupport_fastrtps_c.h
+[48.865s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__rosidl_typesupport_fastrtps_c.h
+[48.865s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__rosidl_typesupport_fastrtps_c.h
+[48.865s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__rosidl_typesupport_fastrtps_c.h
+[48.865s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h
+[48.865s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__rosidl_typesupport_fastrtps_c.h
+[48.865s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__rosidl_typesupport_fastrtps_c.h
+[48.866s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[48.866s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__rosidl_typesupport_fastrtps_c.h
+[48.866s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[48.866s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__rosidl_typesupport_fastrtps_c.h
+[48.867s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__rosidl_typesupport_fastrtps_c.h
+[48.867s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__rosidl_typesupport_fastrtps_c.h
+[48.867s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__rosidl_typesupport_fastrtps_c.h
+[48.867s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__rosidl_typesupport_fastrtps_c.h
+[48.867s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__rosidl_typesupport_fastrtps_c.h
+[48.867s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__rosidl_typesupport_fastrtps_c.h
+[48.867s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__rosidl_typesupport_fastrtps_c.h
+[48.867s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__rosidl_typesupport_fastrtps_c.h
+[48.868s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__rosidl_typesupport_fastrtps_c.h
+[48.868s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__rosidl_typesupport_fastrtps_c.h
+[48.868s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[48.868s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__rosidl_typesupport_fastrtps_c.h
+[48.868s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_fastrtps_c.so
+[48.868s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[48.868s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs
+[48.868s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv
+[48.868s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail
+[48.868s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__rosidl_typesupport_introspection_c.h
+[48.869s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__rosidl_typesupport_introspection_c.h
+[48.869s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__type_support.c
+[48.869s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__type_support.c
+[48.869s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action
+[48.869s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail
+[48.869s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__rosidl_typesupport_introspection_c.h
+[48.869s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__type_support.c
+[48.869s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg
+[48.869s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[48.869s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail
+[48.869s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__type_support.c
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__type_support.c
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__type_support.c
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__type_support.c
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__type_support.c
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__type_support.c
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__type_support.c
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__type_support.c
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__rosidl_typesupport_introspection_c.h
+[48.870s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__rosidl_typesupport_introspection_c.h
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__type_support.c
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__type_support.c
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__rosidl_typesupport_introspection_c.h
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__type_support.c
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__rosidl_typesupport_introspection_c.h
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__rosidl_typesupport_introspection_c.h
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__rosidl_typesupport_introspection_c.h
+[48.871s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__type_support.c
+[48.872s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__rosidl_typesupport_introspection_c.h
+[48.872s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__rosidl_typesupport_introspection_c.h
+[48.872s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__type_support.c
+[48.872s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__type_support.c
+[48.872s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__rosidl_typesupport_introspection_c.h
+[48.873s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__type_support.c
+[48.873s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__rosidl_typesupport_introspection_c.h
+[48.873s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__type_support.c
+[48.873s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[48.873s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__rosidl_typesupport_introspection_c.h
+[48.874s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__rosidl_typesupport_introspection_c.h
+[48.874s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__type_support.c
+[48.874s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__type_support.c
+[48.874s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__type_support.c
+[48.874s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__rosidl_typesupport_introspection_c.h
+[48.875s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__rosidl_typesupport_introspection_c.h
+[48.875s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__type_support.c
+[48.875s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__type_support.c
+[48.876s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__type_support.c
+[48.876s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__type_support.c
+[48.876s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__type_support.c
+[48.877s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__rosidl_typesupport_introspection_c.h
+[48.877s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__type_support.c
+[48.877s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__type_support.c
+[48.877s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__rosidl_typesupport_introspection_c.h
+[48.877s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[48.877s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__type_support.c
+[48.877s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h
+[48.878s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__rosidl_typesupport_introspection_c.h
+[48.878s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__rosidl_typesupport_introspection_c.h
+[48.878s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__type_support.c
+[48.878s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__rosidl_typesupport_introspection_c.h
+[48.879s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__rosidl_typesupport_introspection_c.h
+[48.879s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__rosidl_typesupport_introspection_c.h
+[48.879s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__type_support.c
+[48.879s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[48.879s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__rosidl_typesupport_introspection_c.h
+[48.880s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__type_support.c
+[48.880s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__type_support.c
+[48.880s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__rosidl_typesupport_introspection_c.h
+[48.880s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__type_support.c
+[48.880s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__type_support.c
+[48.881s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__rosidl_typesupport_introspection_c.h
+[48.881s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__rosidl_typesupport_introspection_c.h
+[48.881s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__type_support.c
+[48.881s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__type_support.c
+[48.882s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__rosidl_typesupport_introspection_c.h
+[48.882s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__type_support.c
+[48.882s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__rosidl_typesupport_introspection_c.h
+[48.882s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__rosidl_typesupport_introspection_c.h
+[48.882s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__rosidl_typesupport_introspection_c.h
+[48.882s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__type_support.c
+[48.883s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__rosidl_typesupport_introspection_c.h
+[48.883s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__rosidl_typesupport_introspection_c.h
+[48.883s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_introspection_c.so
+[48.883s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_introspection_c.so" to ""
+[48.883s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_c.so
+[48.883s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_c.so" to ""
+[48.884s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs
+[48.884s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv
+[48.884s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/set_can_state.hpp
+[48.884s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/register.hpp
+[48.884s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail
+[48.884s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__builder.hpp
+[48.884s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__traits.hpp
+[48.884s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__struct.hpp
+[48.885s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__traits.hpp
+[48.885s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__struct.hpp
+[48.885s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__builder.hpp
+[48.885s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action
+[48.885s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/check_for_objects.hpp
+[48.885s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail
+[48.885s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__builder.hpp
+[48.886s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__struct.hpp
+[48.886s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__traits.hpp
+[48.886s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg
+[48.886s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/chassis_state.hpp
+[48.886s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/bounding_box.hpp
+[48.886s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/cone_with_covariance.hpp
+[48.887s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/point_array_stamped.hpp
+[48.887s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/ekf_state.hpp
+[48.887s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/full_state.hpp
+[48.887s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/wheel_speeds_stamped.hpp
+[48.887s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/slam_err.hpp
+[48.887s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/can_state.hpp
+[48.887s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/cone_array.hpp
+[48.887s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/wheel_odometry_err.hpp
+[48.888s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/vehicle_commands_stamped.hpp
+[48.888s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/runstop.hpp
+[48.888s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/wheel_speeds.hpp
+[48.888s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/topic_status.hpp
+[48.888s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/node_state.hpp
+[48.889s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/path_integral_params.hpp
+[48.889s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/heartbeat.hpp
+[48.890s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/costmap.hpp
+[48.890s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/node_state_array.hpp
+[48.891s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/chassis_command.hpp
+[48.892s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/bounding_boxes.hpp
+[48.893s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/point_array.hpp
+[48.893s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/car_state.hpp
+[48.893s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/cone_array_with_covariance.hpp
+[48.894s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail
+[48.894s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__traits.hpp
+[48.894s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__struct.hpp
+[48.894s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__builder.hpp
+[48.895s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__builder.hpp
+[48.895s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__struct.hpp
+[48.895s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__builder.hpp
+[48.895s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__builder.hpp
+[48.896s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__struct.hpp
+[48.896s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__traits.hpp
+[48.896s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__struct.hpp
+[48.896s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__traits.hpp
+[48.896s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__traits.hpp
+[48.897s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__struct.hpp
+[48.897s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__builder.hpp
+[48.897s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__builder.hpp
+[48.897s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__traits.hpp
+[48.898s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__struct.hpp
+[48.898s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__builder.hpp
+[48.898s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__traits.hpp
+[48.898s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__struct.hpp
+[48.898s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__struct.hpp
+[48.899s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__struct.hpp
+[48.899s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__builder.hpp
+[48.899s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__builder.hpp
+[48.899s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__traits.hpp
+[48.899s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__builder.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__traits.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__traits.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__builder.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__struct.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__builder.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__struct.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__traits.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__traits.hpp
+[48.900s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__builder.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__traits.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__struct.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__struct.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__traits.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__traits.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__traits.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__builder.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__builder.hpp
+[48.901s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__struct.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__traits.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__traits.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__traits.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__struct.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__struct.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__builder.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__struct.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__builder.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__builder.hpp
+[48.902s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__builder.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__builder.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__builder.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__struct.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__struct.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__struct.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__traits.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__traits.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__traits.hpp
+[48.903s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__builder.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__struct.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__struct.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__struct.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__builder.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__traits.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__builder.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__builder.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__traits.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__struct.hpp
+[48.904s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__struct.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__struct.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__builder.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__struct.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__traits.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__builder.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__builder.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__traits.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__traits.hpp
+[48.905s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__struct.hpp
+[48.906s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__struct.hpp
+[48.906s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__struct.hpp
+[48.906s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__builder.hpp
+[48.906s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__traits.hpp
+[48.906s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__builder.hpp
+[48.906s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__traits.hpp
+[48.907s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__builder.hpp
+[48.907s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__builder.hpp
+[48.907s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__builder.hpp
+[48.908s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__traits.hpp
+[48.908s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__builder.hpp
+[48.908s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__traits.hpp
+[48.908s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__traits.hpp
+[48.908s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__traits.hpp
+[48.909s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__traits.hpp
+[48.909s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__struct.hpp
+[48.910s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__struct.hpp
+[48.910s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__traits.hpp
+[48.910s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__traits.hpp
+[48.911s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__struct.hpp
+[48.911s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__traits.hpp
+[48.911s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__builder.hpp
+[48.911s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__builder.hpp
+[48.911s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__traits.hpp
+[48.911s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__builder.hpp
+[48.911s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__struct.hpp
+[48.911s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__struct.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__struct.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__struct.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/vehicle_commands.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/lap_stats.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/path_integral_stats.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/path_integral_timing.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/state_machine_state.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/waypoint.hpp
+[48.912s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/integration_err.hpp
+[48.913s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/path_integral_status.hpp
+[48.913s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/ekf_err.hpp
+[48.913s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/waypoint_array_stamped.hpp
+[48.913s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/slam_state.hpp
+[48.913s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/system_status.hpp
+[48.913s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs
+[48.913s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv
+[48.913s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail
+[48.913s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__rosidl_typesupport_fastrtps_cpp.hpp
+[48.913s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.914s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/dds_fastrtps
+[48.914s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action
+[48.914s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail
+[48.914s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/dds_fastrtps
+[48.914s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[48.914s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg
+[48.914s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail
+[48.914s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[48.914s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.914s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[48.914s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[48.915s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.915s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[48.915s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__rosidl_typesupport_fastrtps_cpp.hpp
+[48.915s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[48.915s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__rosidl_typesupport_fastrtps_cpp.hpp
+[48.915s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__rosidl_typesupport_fastrtps_cpp.hpp
+[48.915s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.915s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__rosidl_typesupport_fastrtps_cpp.hpp
+[48.916s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/dds_fastrtps
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__rosidl_typesupport_fastrtps_cpp.hpp
+[48.917s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[48.918s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[48.918s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[48.918s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__rosidl_typesupport_fastrtps_cpp.hpp
+[48.918s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__rosidl_typesupport_fastrtps_cpp.hpp
+[48.918s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__rosidl_typesupport_fastrtps_cpp.hpp
+[48.918s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp
+[48.918s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[48.918s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_fastrtps_cpp.so
+[48.918s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[48.918s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs
+[48.919s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv
+[48.919s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail
+[48.919s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__rosidl_typesupport_introspection_cpp.hpp
+[48.919s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__rosidl_typesupport_introspection_cpp.hpp
+[48.919s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/register__type_support.cpp
+[48.919s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/srv/detail/set_can_state__type_support.cpp
+[48.919s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action
+[48.919s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail
+[48.919s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__rosidl_typesupport_introspection_cpp.hpp
+[48.919s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/action/detail/check_for_objects__type_support.cpp
+[48.920s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg
+[48.920s] -- Up-to-date: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__type_support.cpp
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__type_support.cpp
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__rosidl_typesupport_introspection_cpp.hpp
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__type_support.cpp
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__type_support.cpp
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__type_support.cpp
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__type_support.cpp
+[48.920s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__rosidl_typesupport_introspection_cpp.hpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array__rosidl_typesupport_introspection_cpp.hpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__rosidl_typesupport_introspection_cpp.hpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__rosidl_typesupport_introspection_cpp.hpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__type_support.cpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__type_support.cpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__rosidl_typesupport_introspection_cpp.hpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__type_support.cpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__type_support.cpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__rosidl_typesupport_introspection_cpp.hpp
+[48.921s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__rosidl_typesupport_introspection_cpp.hpp
+[48.922s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__rosidl_typesupport_introspection_cpp.hpp
+[48.922s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__rosidl_typesupport_introspection_cpp.hpp
+[48.922s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_command__type_support.cpp
+[48.922s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__type_support.cpp
+[48.922s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__rosidl_typesupport_introspection_cpp.hpp
+[48.922s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_state__rosidl_typesupport_introspection_cpp.hpp
+[48.922s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__rosidl_typesupport_introspection_cpp.hpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_state__rosidl_typesupport_introspection_cpp.hpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__type_support.cpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/costmap__type_support.cpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__type_support.cpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__rosidl_typesupport_introspection_cpp.hpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/car_state__type_support.cpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_stats__type_support.cpp
+[48.923s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint__type_support.cpp
+[48.924s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[48.924s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds_stamped__rosidl_typesupport_introspection_cpp.hpp
+[48.924s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__rosidl_typesupport_introspection_cpp.hpp
+[48.924s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state__rosidl_typesupport_introspection_cpp.hpp
+[48.924s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__type_support.cpp
+[48.924s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[48.924s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__rosidl_typesupport_introspection_cpp.hpp
+[48.924s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands_stamped__rosidl_typesupport_introspection_cpp.hpp
+[48.925s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/heartbeat__type_support.cpp
+[48.925s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_odometry_err__type_support.cpp
+[48.925s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__type_support.cpp
+[48.925s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/ekf_err__type_support.cpp
+[48.925s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__rosidl_typesupport_introspection_cpp.hpp
+[48.925s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__type_support.cpp
+[48.926s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/chassis_state__rosidl_typesupport_introspection_cpp.hpp
+[48.926s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp
+[48.927s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/waypoint_array_stamped__type_support.cpp
+[48.927s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/topic_status__type_support.cpp
+[48.927s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__type_support.cpp
+[48.927s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_timing__type_support.cpp
+[48.927s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/slam_err__rosidl_typesupport_introspection_cpp.hpp
+[48.927s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__type_support.cpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/state_machine_state__rosidl_typesupport_introspection_cpp.hpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/lap_stats__type_support.cpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__rosidl_typesupport_introspection_cpp.hpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/point_array_stamped__rosidl_typesupport_introspection_cpp.hpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_params__type_support.cpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/can_state__type_support.cpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/integration_err__type_support.cpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_array_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[48.928s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/node_state_array__type_support.cpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/wheel_speeds__rosidl_typesupport_introspection_cpp.hpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/vehicle_commands__rosidl_typesupport_introspection_cpp.hpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/system_status__type_support.cpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/path_integral_status__type_support.cpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/full_state__rosidl_typesupport_introspection_cpp.hpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/runstop__type_support.cpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/include/eufs_msgs/eufs_msgs/msg/detail/cone_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_introspection_cpp.so
+[48.929s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[48.929s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_cpp.so
+[48.930s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_typesupport_cpp.so" to ""
+[48.930s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/environment/pythonpath.sh
+[48.930s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/environment/pythonpath.dsv
+[48.930s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs-0.0.0-py3.10.egg-info
+[48.930s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[48.930s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[48.930s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/libeufs_msgs__rosidl_generator_py.so
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/_eufs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/_eufs_msgs_s.ep.rosidl_typesupport_c.c
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv
+[48.931s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv/_set_can_state.py
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv/_register_s.c
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv/_register.py
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv/_set_can_state_s.c
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv/__init__.py
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/action
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/action/_check_for_objects_s.c
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/action/_check_for_objects.py
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/action/__init__.py
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/_eufs_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[48.932s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/__init__.py
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_chassis_state.py
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_state_machine_state.py
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_bounding_boxes_s.c
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_point_array.py
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_array_with_covariance_s.c
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_bounding_box.py
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_lap_stats.py
+[48.933s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_system_status.py
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_full_state.py
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_system_status_s.c
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_odometry_err.py
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_with_covariance_s.c
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_vehicle_commands.py
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_runstop_s.c
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_odometry_err_s.c
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_node_state_array.py
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_point_array_stamped.py
+[48.934s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_waypoint_s.c
+[48.935s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_chassis_command_s.c
+[48.935s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_vehicle_commands_stamped.py
+[48.935s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_speeds_stamped_s.c
+[48.935s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_can_state_s.c
+[48.935s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_with_covariance.py
+[48.935s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_chassis_command.py
+[48.935s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_waypoint_array_stamped_s.c
+[48.935s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_bounding_box_s.c
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_costmap_s.c
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_state_machine_state_s.c
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_slam_err_s.c
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_ekf_state_s.c
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_bounding_boxes.py
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_car_state_s.c
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_costmap.py
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_timing_s.c
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_node_state.py
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_slam_state_s.c
+[48.936s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_chassis_state_s.c
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_array_s.c
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_node_state_array_s.c
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_ekf_err_s.c
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_heartbeat.py
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_slam_err.py
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_waypoint.py
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_ekf_state.py
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_speeds_stamped.py
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_array.py
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_integration_err.py
+[48.937s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_array_with_covariance.py
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_vehicle_commands_stamped_s.c
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_params_s.c
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_integration_err_s.c
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_point_array_stamped_s.c
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_runstop.py
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_can_state.py
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_vehicle_commands_s.c
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_full_state_s.c
+[48.938s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_timing.py
+[48.939s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_speeds_s.c
+[48.939s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_waypoint_array_stamped.py
+[48.939s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_node_state_s.c
+[48.939s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_slam_state.py
+[48.939s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/__init__.py
+[48.939s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_stats_s.c
+[48.939s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_status.py
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_heartbeat_s.c
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_car_state.py
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_status_s.c
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_lap_stats_s.c
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_ekf_err.py
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_topic_status.py
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_stats.py
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_params.py
+[48.940s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_speeds.py
+[48.941s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_topic_status_s.c
+[48.941s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_point_array_s.c
+[48.998s] Listing '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs'...
+[48.998s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/__init__.py'...
+[48.998s] Listing '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/action'...
+[48.998s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/action/__init__.py'...
+[48.998s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/action/_check_for_objects.py'...
+[48.999s] Listing '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg'...
+[48.999s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/__init__.py'...
+[48.999s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_bounding_box.py'...
+[48.999s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_bounding_boxes.py'...
+[48.999s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_can_state.py'...
+[48.999s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_car_state.py'...
+[48.999s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_chassis_command.py'...
+[48.999s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_chassis_state.py'...
+[49.000s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_array.py'...
+[49.000s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_array_with_covariance.py'...
+[49.000s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_cone_with_covariance.py'...
+[49.000s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_costmap.py'...
+[49.000s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_ekf_err.py'...
+[49.000s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_ekf_state.py'...
+[49.000s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_full_state.py'...
+[49.000s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_heartbeat.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_integration_err.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_lap_stats.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_node_state.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_node_state_array.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_params.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_stats.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_status.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_path_integral_timing.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_point_array.py'...
+[49.001s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_point_array_stamped.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_runstop.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_slam_err.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_slam_state.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_state_machine_state.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_system_status.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_topic_status.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_vehicle_commands.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_vehicle_commands_stamped.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_waypoint.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_waypoint_array_stamped.py'...
+[49.002s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_odometry_err.py'...
+[49.003s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_speeds.py'...
+[49.003s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/msg/_wheel_speeds_stamped.py'...
+[49.003s] Listing '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv'...
+[49.003s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv/__init__.py'...
+[49.003s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv/_register.py'...
+[49.003s] Compiling '/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/srv/_set_can_state.py'...
+[49.004s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[49.004s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[49.005s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[49.005s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[49.005s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[49.006s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/local/lib/python3.10/dist-packages/eufs_msgs/eufs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[49.006s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_generator_py.so
+[49.007s] -- Set runtime path of "/home/gusta/balbino_eufs/install/eufs_msgs/lib/libeufs_msgs__rosidl_generator_py.so" to ""
+[49.007s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/BoundingBox.idl
+[49.007s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/BoundingBoxes.idl
+[49.007s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/CanState.idl
+[49.008s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/CarState.idl
+[49.008s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ChassisCommand.idl
+[49.008s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ChassisState.idl
+[49.008s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ConeArray.idl
+[49.010s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ConeArrayWithCovariance.idl
+[49.010s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ConeWithCovariance.idl
+[49.010s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/Costmap.idl
+[49.010s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/EKFErr.idl
+[49.011s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/EKFState.idl
+[49.011s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/FullState.idl
+[49.011s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/Heartbeat.idl
+[49.011s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/IntegrationErr.idl
+[49.011s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/LapStats.idl
+[49.011s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/NodeState.idl
+[49.012s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/NodeStateArray.idl
+[49.012s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PathIntegralParams.idl
+[49.012s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PathIntegralStats.idl
+[49.012s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PathIntegralStatus.idl
+[49.012s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PathIntegralTiming.idl
+[49.013s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PointArray.idl
+[49.013s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PointArrayStamped.idl
+[49.013s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/Runstop.idl
+[49.013s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/SLAMErr.idl
+[49.013s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/SLAMState.idl
+[49.013s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/StateMachineState.idl
+[49.013s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/SystemStatus.idl
+[49.013s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/TopicStatus.idl
+[49.014s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/VehicleCommands.idl
+[49.014s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/VehicleCommandsStamped.idl
+[49.014s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/Waypoint.idl
+[49.014s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/WaypointArrayStamped.idl
+[49.014s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/WheelOdometryErr.idl
+[49.014s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/WheelSpeeds.idl
+[49.015s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/WheelSpeedsStamped.idl
+[49.015s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/action/CheckForObjects.idl
+[49.015s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/srv/Register.idl
+[49.015s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/srv/SetCanState.idl
+[49.016s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/BoundingBox.msg
+[49.016s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/BoundingBoxes.msg
+[49.016s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/CanState.msg
+[49.016s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/CarState.msg
+[49.016s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ChassisCommand.msg
+[49.016s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ChassisState.msg
+[49.017s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ConeArray.msg
+[49.017s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ConeArrayWithCovariance.msg
+[49.017s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/ConeWithCovariance.msg
+[49.017s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/Costmap.msg
+[49.017s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/EKFErr.msg
+[49.017s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/EKFState.msg
+[49.017s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/FullState.msg
+[49.018s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/Heartbeat.msg
+[49.018s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/IntegrationErr.msg
+[49.018s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/LapStats.msg
+[49.018s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/NodeState.msg
+[49.018s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/NodeStateArray.msg
+[49.018s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PathIntegralParams.msg
+[49.019s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PathIntegralStats.msg
+[49.019s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PathIntegralStatus.msg
+[49.019s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PathIntegralTiming.msg
+[49.019s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PointArray.msg
+[49.019s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/PointArrayStamped.msg
+[49.019s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/Runstop.msg
+[49.020s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/SLAMErr.msg
+[49.020s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/SLAMState.msg
+[49.020s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/StateMachineState.msg
+[49.020s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/SystemStatus.msg
+[49.020s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/TopicStatus.msg
+[49.020s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/VehicleCommands.msg
+[49.021s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/VehicleCommandsStamped.msg
+[49.021s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/Waypoint.msg
+[49.021s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/WaypointArrayStamped.msg
+[49.021s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/WheelOdometryErr.msg
+[49.021s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/WheelSpeeds.msg
+[49.022s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/msg/WheelSpeedsStamped.msg
+[49.022s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/action/CheckForObjects.action
+[49.022s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/srv/Register.srv
+[49.022s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/srv/Register_Request.msg
+[49.022s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/srv/Register_Response.msg
+[49.022s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/srv/SetCanState.srv
+[49.022s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/srv/SetCanState_Request.msg
+[49.023s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/srv/SetCanState_Response.msg
+[49.023s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/ament_index/resource_index/package_run_dependencies/eufs_msgs
+[49.023s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/ament_index/resource_index/parent_prefix_path/eufs_msgs
+[49.023s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/environment/ament_prefix_path.sh
+[49.024s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/environment/ament_prefix_path.dsv
+[49.024s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/environment/path.sh
+[49.024s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/environment/path.dsv
+[49.025s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/local_setup.bash
+[49.025s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/local_setup.sh
+[49.025s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/local_setup.zsh
+[49.026s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/local_setup.dsv
+[49.027s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/package.dsv
+[49.027s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/ament_index/resource_index/packages/eufs_msgs
+[49.027s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_generator_cExport.cmake
+[49.028s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_generator_cExport-noconfig.cmake
+[49.028s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[49.028s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[49.028s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgs__rosidl_typesupport_introspection_cExport.cmake
+[49.028s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[49.029s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgs__rosidl_typesupport_cExport.cmake
+[49.029s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[49.029s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_generator_cppExport.cmake
+[49.029s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[49.029s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[49.030s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[49.030s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[49.030s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgs__rosidl_typesupport_cppExport.cmake
+[49.030s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[49.030s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_generator_pyExport.cmake
+[49.031s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/export_eufs_msgs__rosidl_generator_pyExport-noconfig.cmake
+[49.031s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/rosidl_cmake-extras.cmake
+[49.031s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.031s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.031s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[49.031s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[49.032s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[49.032s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[49.032s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgsConfig.cmake
+[49.032s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/cmake/eufs_msgsConfig-version.cmake
+[49.032s] -- Installing: /home/gusta/balbino_eufs/install/eufs_msgs/share/eufs_msgs/package.xml
+[49.035s] Invoked command in '/home/gusta/balbino_eufs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gusta/balbino_eufs/build/eufs_msgs
